@@ -162,3 +162,20 @@ contacts: [
     ],
     }
     ]
+
+    new Vue({
+        el: '#app',
+        data: {
+          contacts: [
+            { id: 1, name: 'Marco', image: 'path/to/image1.jpg' },
+            { id: 2, name: 'Martina', image: 'path/to/image2.jpg' },
+            // Aggiungi altri contatti qui
+          ],
+          messages: [
+            { id: 1, text: 'Ciao', type: 'interlocutor' },
+            { id: 2, text: 'Come va?', type: 'user' },
+            // Aggiungi altri messaggi qui
+          ]
+        }
+      });
+      
