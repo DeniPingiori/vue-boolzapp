@@ -61,8 +61,18 @@ body {
 
 .notifiche {
     height: 50px;
-    background-color: black;
+    background-color: rgb(141, 216, 220);
     color: #ffff;
+}
+.col-1 {
+   
+    color: black;
+    align-content:end;
+}
+
+.col-2 {
+    display: flex;
+    color: rgb(53, 52, 52);
 }
 .src {
     height: 50px;
@@ -71,7 +81,7 @@ body {
 }
 .list {
     height: calc(100vh - 60px - 50px - 50px - 50px);
-    background-color: rgb(175, 26, 130);
+    background-color: rgb(169, 162, 167);
     color: #141212;
     overflow-y: auto;
 }
@@ -90,5 +100,5 @@ body {
 .contact {
     display: flex;
     align-items: center ;
-    
+
 }
